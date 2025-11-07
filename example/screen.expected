@@ -1,0 +1,83 @@
+***********************************************************************************
+*                                                                                 *
+*  PPPPPPPPPPPP    L               U           U   M           M         A        *
+*  P           P   L               U           U   MM         MM        A A       *
+*  P           P   L               U           U   M M       M M       A   A      *
+*  P           P   L               U           U   M  M     M  M      A     A     *
+*  P           P   L               U           U   M   M   M   M     A       A    *
+*  PPPPPPPPPPPP    L               U           U   M    M M    M    A         A   *
+*  P               L               U           U   M     M     M   AAAAAAAAAAAAA  *
+*  P               L               U           U   M           M   A           A  *
+*  P               L               U           U   M           M   A           A  *
+*  P               LLLLLLLLLLLLL    UUUUUUUUUUU    M           M   A           A  *
+*                                                                                 *
+*            [Plu]gin-based [M]icrobiome [A]nalysis (formerly MiAMi)              *
+* (C) 2016, 2018 Bioinformatics Research Group, Florida International University  *
+*    Under MIT License From Open Source Initiative (OSI), All Rights Reserved.    *
+*                                                                                 *
+*    Any professionally published work using PluMA should cite the following:     *
+*                        T. Cickovski and G. Narasimhan.                          *
+*                Constructing Lightweight and Flexible Pipelines                  *
+*                 Using Plugin-Based Microbiome Analysis (PluMA)                  *
+*                     Bioinformatics 34(17):2881-2888, 2018                       *
+*                                                                                 *
+***********************************************************************************
+[PluMA] Running Plugin: SkipGNN
+Loading DTI dataset...
+Index(['Drug_ID', 'Protein_ID'], dtype='object')
+[1 2]
+1
+Index(['Drug_ID', 'Protein_ID'], dtype='object')
+[1 2]
+1
+Start Training...
+-------- Epoch 1 --------
+/lclhome/tcickovs/PluMA/plugins/SkipGNN/utils2.py:319: RuntimeWarning: divide by zero encountered in power
+  d_inv_sqrt = np.power(rowsum, -0.5).flatten()
+epoch: 1/ iteration: 1/ loss_train: 0.70313084
+epoch: 0001 loss_train: 0.5108 auroc_train: 0.8566 loss_val: 0.5240 auroc_val: 0.8475 auprc_val: 0.8917 f1_val: 0.7613 time: 2.4301s
+-------- Epoch 2 --------
+epoch: 2/ iteration: 1/ loss_train: 0.5262412
+epoch: 0002 loss_train: 0.3244 auroc_train: 0.9120 loss_val: 0.3511 auroc_val: 0.9006 auprc_val: 0.9160 f1_val: 0.7765 time: 2.3837s
+-------- Epoch 3 --------
+epoch: 3/ iteration: 1/ loss_train: 0.34207714
+epoch: 0003 loss_train: 0.3099 auroc_train: 0.9507 loss_val: 0.3469 auroc_val: 0.9155 auprc_val: 0.9258 f1_val: 0.8086 time: 2.4315s
+-------- Epoch 4 --------
+epoch: 4/ iteration: 1/ loss_train: 0.29322457
+epoch: 0004 loss_train: 0.2001 auroc_train: 0.9611 loss_val: 0.3385 auroc_val: 0.9224 auprc_val: 0.9344 f1_val: 0.8310 time: 2.4028s
+-------- Epoch 5 --------
+epoch: 5/ iteration: 1/ loss_train: 0.26091838
+epoch: 0005 loss_train: 0.2571 auroc_train: 0.9696 loss_val: 0.3352 auroc_val: 0.9291 auprc_val: 0.9379 f1_val: 0.8316 time: 2.4502s
+-------- Epoch 6 --------
+epoch: 6/ iteration: 1/ loss_train: 0.17365062
+epoch: 0006 loss_train: 0.2558 auroc_train: 0.9758 loss_val: 0.3569 auroc_val: 0.9378 auprc_val: 0.9440 f1_val: 0.8372 time: 2.4087s
+-------- Epoch 7 --------
+epoch: 7/ iteration: 1/ loss_train: 0.1362304
+epoch: 0007 loss_train: 0.1859 auroc_train: 0.9795 loss_val: 0.3954 auroc_val: 0.9393 auprc_val: 0.9456 f1_val: 0.8445 time: 2.4284s
+-------- Epoch 8 --------
+epoch: 8/ iteration: 1/ loss_train: 0.1689261
+epoch: 0008 loss_train: 0.2024 auroc_train: 0.9821 loss_val: 0.3578 auroc_val: 0.9400 auprc_val: 0.9452 f1_val: 0.8474 time: 2.4277s
+-------- Epoch 9 --------
+epoch: 9/ iteration: 1/ loss_train: 0.20278642
+epoch: 0009 loss_train: 0.1804 auroc_train: 0.9839 loss_val: 0.3419 auroc_val: 0.9412 auprc_val: 0.9463 f1_val: 0.8531 time: 2.4616s
+-------- Epoch 10 --------
+epoch: 10/ iteration: 1/ loss_train: 0.18135205
+epoch: 0010 loss_train: 0.1847 auroc_train: 0.9855 loss_val: 0.3284 auroc_val: 0.9455 auprc_val: 0.9500 f1_val: 0.8580 time: 2.4508s
+-------- Epoch 11 --------
+epoch: 11/ iteration: 1/ loss_train: 0.123196624
+epoch: 0011 loss_train: 0.1235 auroc_train: 0.9862 loss_val: 0.5028 auroc_val: 0.9402 auprc_val: 0.9446 f1_val: 0.8639 time: 2.3998s
+-------- Epoch 12 --------
+epoch: 12/ iteration: 1/ loss_train: 0.109674655
+epoch: 0012 loss_train: 0.1551 auroc_train: 0.9870 loss_val: 0.3342 auroc_val: 0.9437 auprc_val: 0.9458 f1_val: 0.8447 time: 2.4273s
+-------- Epoch 13 --------
+epoch: 13/ iteration: 1/ loss_train: 0.14397356
+epoch: 0013 loss_train: 0.1163 auroc_train: 0.9883 loss_val: 0.3161 auroc_val: 0.9428 auprc_val: 0.9456 f1_val: 0.8625 time: 2.4459s
+-------- Epoch 14 --------
+epoch: 14/ iteration: 1/ loss_train: 0.13757807
+epoch: 0014 loss_train: 0.1209 auroc_train: 0.9885 loss_val: 0.4320 auroc_val: 0.9469 auprc_val: 0.9495 f1_val: 0.8492 time: 2.4701s
+-------- Epoch 15 --------
+epoch: 15/ iteration: 1/ loss_train: 0.13416252
+epoch: 0015 loss_train: 0.1134 auroc_train: 0.9896 loss_val: 0.3059 auroc_val: 0.9461 auprc_val: 0.9479 f1_val: 0.8604 time: 2.4604s
+Optimization Finished!
+Total time elapsed: 36.5045s
+loss_test: 0.4295 auroc_test: 0.9484 auprc_test: 0.9499 f1_test: 0.8612

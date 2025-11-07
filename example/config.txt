@@ -1,0 +1,2 @@
+Prefix plugins/SkipGNN/example/
+Plugin SkipGNN inputfile parameters.txt outputfile none
